@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Visitors</title>
+</head>
+<body>
+<div>
+    <p><strong>Общее количество посещений - {{counter}}</strong></p>
+    <ol class="List">
+    {% for visit in UList %} <!-- django template lang - for loop -->
+        <li>{{visit.visitor}} - {{visit.data}}</li>
+    {% endfor %}
+    </ol><!-- List -->
+ </div><!-- container -->
+</body>
+</html>
