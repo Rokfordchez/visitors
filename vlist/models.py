@@ -9,5 +9,6 @@ class UList(models.Model):
     visitor = models.TextField(default='anonymous')
     visit_num = models.PositiveIntegerField(default=0)
     data = models.TextField(blank=True)
+    image = models.ImageField(blank=True)
 
 
