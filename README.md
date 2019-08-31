@@ -17,7 +17,7 @@ git clone https://github.com/Rokfordchez/visitors.git
 ```
 It is best to use the python `virtualenv` tool to build locally:
 
-windows
+powershell
 ```powershell
 cd ../
 virtualenv -p python .
