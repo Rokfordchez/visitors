@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html >
-<head>
+{% extends 'base.html' %}
+
+{% load avatar_tags %}
+
+{% block head %}
   <meta charset="UTF-8">
   <title>Visitors</title>
-</head>
-<body>
-{% load avatar_tags %}
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      {% if user.is_authenticated %}<a class="nav-item nav-link active" href="{% url 'edit_profile' %}">Profile<span class="sr-only"></span></a>{% endif %}
-      {% if user.is_anonymous %}<a class="nav-item nav-link" href="{% url 'register' %}">Sign up</a>{% endif %}
-      {% if user.is_anonymous %}<a class="nav-item nav-link" href="{% url 'login' %}">Sign in</a>{% endif %}
-      {% if user.is_authenticated %}<a class="nav-item nav-link disabled" href="{% url 'logout' %}">Log out</a>{% endif %}
-    </div>
-  </div>
-<div>
+{% endblock %}
+{% block body %}
+<div class="container">
     <p><strong>Общее количество посещений - {{counter}}</strong></p>
     <ol class="List">
     {% for visit in UList %} <!-- django template lang - for loop -->
@@ -22,5 +15,5 @@
     {% endfor %}
     </ol><!-- List -->
  </div><!-- container -->
-</body>
-</html>
+{% endblock %}
+

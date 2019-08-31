@@ -16,6 +16,5 @@ class EditProfileForm(UserChangeForm):
         model = User
         fields = (
             'first_name',
-            'last_name',
-            'password'
+            'email',
         )
