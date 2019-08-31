@@ -26,7 +26,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, "static")
 SECRET_KEY = 'm40b6#fhas4v&ic(b^()ui(2hf%27-5z0n5!nk6=ca4x(_2)wh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,6 +57,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+ALLOWED_HOSTS = ['visitapp.herokuapp.com']
 
 ROOT_URLCONF = 'visitors.urls'
 
