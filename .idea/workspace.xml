@@ -4,14 +4,7 @@
     <list default="true" id="870f2e60-44ba-42f7-9367-140cc5eb9fcd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../parsing_article/recursion_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visitors/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/visitors/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visitors/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/visitors/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlist/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlist/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlist/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlist/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlist/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vlist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vlist/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/visitors/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="138" column="47" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="47" />
+            <state relative-caret-position="464">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -429,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/visitors/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="138" column="47" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="47" />
+        <state relative-caret-position="464">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
