@@ -26,7 +26,10 @@ pip install -r requirements.txt
 cd [your directory]
 python manage.py runserver
 ```
+## Description
 
+App shows visitors of website, log ip and time of visit. User can auth and then update profile.
+Avatars get from gravatar by email. Localy can download own avatar. But Heroku have readonly file system.
 
 ## Contacts
 telegram @originalov
