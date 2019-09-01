@@ -1,18 +1,16 @@
- <div class="content-section">
-        <form method="POST">
-            {% csrf_token %}
-            <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Join Today</legend>
-                {{ form.as_p }}
-            </fieldset>
-            <div class="form-group">
-                <button class="btn btn-outline-info" type="submit">Sign Up</button>
-            </div>
-        </form>
-        <div class="border-top pt-3">
-            <small class="text-muted">
-                <li>Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a></li>
-                <li><a href="{% url 'home' %}">Back to home page</a></li>
-            </small>
-        </div>
-    </div>
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <h1>Register</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+    <ul>
+        <li>Already Have An Account? <a class="ml-2" href="{% url 'login' %}">Sign In</a></li>
+        <li><a href="{% url 'home' %}">Back to home page</a></li>
+    </ul>>
+</div>
+{% endblock %}

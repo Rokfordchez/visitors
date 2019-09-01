@@ -31,7 +31,7 @@ STATICFILES_DIRS = (
 SECRET_KEY = 'm40b6#fhas4v&ic(b^()ui(2hf%27-5z0n5!nk6=ca4x(_2)wh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 LOGIN_REDIRECT_URL = 'home'
 
