@@ -10,7 +10,7 @@
 <div class="container">
     <p><strong>Общее количество посещений - {{counter}}</strong></p>
     <ol class="List">
-    {% for visit in UList %} <!-- django template lang - for loop -->
+        {% for visit in UList|dictsort:"id" %} <!-- django template lang - for loop -->
         <li> <img src="{{visit.image}}" width="40" height="40"/> {{visit.visitor}} - {{visit.data}}</li>
     {% endfor %}
     </ol><!-- List -->
