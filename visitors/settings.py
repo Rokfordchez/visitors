@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ALLOWED_HOSTS = ['visitapp.herokuapp.com','localhost', '0.0.0.0']
+ALLOWED_HOSTS = ['visitapp.herokuapp.com']
 
 ROOT_URLCONF = 'visitors.urls'
 
