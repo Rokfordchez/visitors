@@ -32,4 +32,5 @@ urlpatterns = [
                   path('avatar/', include('avatar.urls')),
                   path('profile/', view_profile, name='view_profile'),
                   path('password/', change_password, name='password'),
+                  path('api/', include('vlist.api.urls')),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
