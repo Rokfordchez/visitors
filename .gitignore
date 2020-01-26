@@ -88,3 +88,4 @@ fabric.properties
 /env3/
 /.env
 db.sqlite3
+__pycache__
